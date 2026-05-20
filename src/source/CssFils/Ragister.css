@@ -1,0 +1,81 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:1em;
+    background-image: url("./stars.avif");
+    color: white;
+   /* font-size:2em; */
+   /* font-weight:lighter; */
+}
+
+.user .greeting{
+    font-size:4em;
+    font-weight:bolder;
+    letter-spacing:9px;
+}
+.user .login_page{
+    font-size:1.5em;
+    font-weight:400;
+}
+.loginBtn{
+    height:2em;
+    width: 35%;
+    /* padding: 1em;
+    text-align: center; */
+    font-size: larger;
+    font-weight:500;
+    border-radius:25px;
+    border: none;
+    background-color: white;
+    margin-top: 1em;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:4em;
+    background-image: url("./blackStars.png");
+    background-size: contain;
+}
+.info{
+    font-size:3em;
+letter-spacing: 2px;}
+
+input {
+    border: none;
+    /* border-bottom: 2px solid rgb(27, 7, 118); */
+    border-bottom: 3px solid rgb(0, 0, 0);
+    height: 5rem;
+    width:50%;
+    font-size: larger;
+    height:3%;
+}
+
+input :focus{
+    outline: none;
+    box-shadow: none;
+    border: none;
+    border-bottom: 2px solid #000;
+}
+
+.ragisterBtn{
+    height:2em;
+    width:50%;
+    color: white;
+    font-size: larger;
+    font-weight:500;
+    border-radius:25px;
+    letter-spacing: 3px;
+    border: none;
+    background-color: black;
+}

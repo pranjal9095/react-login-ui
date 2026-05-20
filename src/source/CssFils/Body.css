@@ -1,0 +1,28 @@
+.body-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #333335; */
+    background-image: url(../CssFils/stars.avif);
+}
+
+.countdown{
+    font-size:5em;
+    font-weight:600;
+    margin-left: 40%;
+    color: orange;
+}
+
+.startCountdown{
+    height: 3rem;
+    width:10rem;
+    border-color: white;
+    border: none;
+    box-shadow:2px 2px 10px  blue;
+    font-size: 1.2em;
+    background-color: transparent;
+    color: white;
+}
